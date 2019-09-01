@@ -1,0 +1,21 @@
+body {
+	font-family: 'Helvetica';
+}
+h3 {
+	background-color: #EEE;
+}
+p {
+	background-color: #EEE;
+}
+
+div {
+	width: 300px;
+	height: 250px;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+
+	padding: 30px 120px 0px 50px;
+	margin: 50px 80px;
+}

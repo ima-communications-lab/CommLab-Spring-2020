@@ -1,6 +1,6 @@
-var vid = document.getElementById('myVideo');
+let vid = document.getElementById('myVideo');
 
-var btn = document.getElementById('btnReplay');
+let btn = document.getElementById('btnReplay');
 btn.style.opacity = "0.3";
 
 

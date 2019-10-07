@@ -1,8 +1,8 @@
-var player = document.getElementById("player");
+let player = document.getElementById("player");
 
-var playBtn = document.getElementById("playBtn");
-var pauseBtn = document.getElementById("pauseBtn");
-var stopBtn = document.getElementById("stopBtn");
+let playBtn = document.getElementById("playBtn");
+let pauseBtn = document.getElementById("pauseBtn");
+let stopBtn = document.getElementById("stopBtn");
 
 playBtn.addEventListener("click", playVideo);
 pauseBtn.addEventListener("click", pauseVideo);

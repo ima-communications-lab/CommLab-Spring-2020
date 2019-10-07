@@ -1,17 +1,17 @@
 
-var a = 10;
-var b = 8;
-var c = 3;
-var d = 2
+let a = 10;
+let b = 8;
+let c = 3;
+let d = 2
 
-var resultA = a + b;  // 10 + 8 = 18
-var resultB = b - c;  // 8 - 3 = 5
-var resultC = b * c;  // 8 * 3 = 24
-var resultD = a / d;  // 10 / 2 = 5
+let resultA = a + b;  // 10 + 8 = 18
+let resultB = b - c;  // 8 - 3 = 5
+let resultC = b * c;  // 8 * 3 = 24
+let resultD = a / d;  // 10 / 2 = 5
 
-var resultE = a + b * c  // 10 + 8 * 3 = 10 + 24 = 34
-var resultF = (a + b) * c  // (10 + 8) * 3 = 18 * 3 = 54
-var resultG = a + b * c / d  // 10 + 8 * 3 / 2 = 10 + 24 / 2 = 10 + 12 = 22;
+let resultE = a + b * c  // 10 + 8 * 3 = 10 + 24 = 34
+let resultF = (a + b) * c  // (10 + 8) * 3 = 18 * 3 = 54
+let resultG = a + b * c / d  // 10 + 8 * 3 / 2 = 10 + 24 / 2 = 10 + 12 = 22;
 
 
 console.log( "ResultA =" );

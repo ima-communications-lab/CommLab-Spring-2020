@@ -1,4 +1,4 @@
-var r, g, b;
+let r, g, b;
 
 function setup() {
   createCanvas(500, 600);

@@ -1,4 +1,4 @@
-var links = [
+let links = [
   "http://google.com",
   "http://ima.nyu.sh",
   "http://shanghai.nyu.edu",
@@ -12,15 +12,15 @@ var links = [
 ];
 
 for (i = 0; i < links.length; i++) {
-  var a = document.createElement("A");
+  let a = document.createElement("A");
   a.href = links[i];
   document.body.appendChild(a);
 
-  var b = document.createElement("BUTTON");
-  var t = document.createTextNode("Click me for " + links[i]);
+  let b = document.createElement("BUTTON");
+  let t = document.createTextNode("Click me for " + links[i]);
   b.appendChild(t);
   a.appendChild(b);
 
-  var br = document.createElement("BR");
+  let br = document.createElement("BR");
   document.body.appendChild(br);
 }

@@ -1,6 +1,6 @@
-var vid = document.getElementById('myVideo');
-var btnReplay = document.getElementById('btnReplay');
-var btnStop = document.getElementById('btnStop');
+let vid = document.getElementById('myVideo');
+let btnReplay = document.getElementById('btnReplay');
+let btnStop = document.getElementById('btnStop');
 
 btnReplay.style.display = "block"; // shown
 btnReplay.style.opacity = "0.3";
@@ -8,14 +8,14 @@ btnStop.style.display = "none"; // hidden
 btnStop.style.opacity = "0.3";
 
 
-var step = 0;
-var popupOpened = false;
+let step = 0;
+let popupOpened = false;
 
 function timeUpdated() {
   console.log(vid.currentTime);
 
   // update the "step" variable first
-  var t = vid.currentTime;
+  let t = vid.currentTime;
   if (t >= 0 && t < 2.5) {
     step = 0;
     popupOpened = false; // reset the boolean(true or false) value.

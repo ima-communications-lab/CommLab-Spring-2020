@@ -1,9 +1,9 @@
-var interval = setInterval(swapImage, 200);
-var imgNum = 0;
+let interval = setInterval(swapImage, 200);
+let imgNum = 0;
 
 function swapImage() {
-  var img = document.getElementById('walking-img');
-  var imgFilename = "images/walking" + imgNum + ".jpg";
+  let img = document.getElementById('walking-img');
+  let imgFilename = "images/walking" + imgNum + ".jpg";
   img.src = imgFilename;
 
   imgNum++;
@@ -14,10 +14,10 @@ function swapImage() {
 
 
 // code to stop/start the interval
-var btnStop = document.getElementById("btn-stop");
+let btnStop = document.getElementById("btn-stop");
 btnStop.addEventListener("click", stopInterval);
 
-var btnStart = document.getElementById("btn-start");
+let btnStart = document.getElementById("btn-start");
 btnStart.addEventListener("click", startInterval);
 
 

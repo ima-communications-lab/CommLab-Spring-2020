@@ -1,11 +1,11 @@
-var bgSlider = document.getElementById("background");
-var fgSlider = document.getElementById("foreground");
+let bgSlider = document.getElementById("background");
+let fgSlider = document.getElementById("foreground");
 
 bgSlider.addEventListener("input", changeBackground);
 fgSlider.addEventListener("input", changeForeground);
 
-var backgroundHue = 0;
-var foregroundHue = 0;
+let backgroundHue = 0;
+let foregroundHue = 0;
 
 function changeBackground(e) {
   backgroundHue = e.target.value;

@@ -1,13 +1,13 @@
-var player = document.getElementById("player");
-var message = document.getElementById("message");
+let player = document.getElementById("player");
+let message = document.getElementById("message");
 
-var playBtn = document.getElementById("playBtn");
-var pauseBtn = document.getElementById("pauseBtn");
-var stopBtn = document.getElementById("stopBtn");
-var volumeUpBtn = document.getElementById("volumeUpBtn");
-var volumeDownBtn = document.getElementById("volumeDownBtn");
-var fadeInBtn = document.getElementById("fadeInBtn");  // ***
-var fadeOutBtn = document.getElementById("fadeOutBtn");  // ***
+let playBtn = document.getElementById("playBtn");
+let pauseBtn = document.getElementById("pauseBtn");
+let stopBtn = document.getElementById("stopBtn");
+let volumeUpBtn = document.getElementById("volumeUpBtn");
+let volumeDownBtn = document.getElementById("volumeDownBtn");
+let fadeInBtn = document.getElementById("fadeInBtn");  // ***
+let fadeOutBtn = document.getElementById("fadeOutBtn");  // ***
 
 playBtn.addEventListener("click", playVideo);
 pauseBtn.addEventListener("click", pauseVideo);
@@ -17,9 +17,9 @@ volumeDownBtn.addEventListener("click", volumeDown);
 fadeInBtn.addEventListener("click", fadeIn);  // ***
 fadeOutBtn.addEventListener("click", fadeOut);  // ***
 
-var volume = 1.0;
-var fadeEffect;
-var intervalTime = 100; // 0.1 sec
+let volume = 1.0;
+let fadeEffect;
+let intervalTime = 100; // 0.1 sec
 
 function fadeIn() {
   // clear the previous effect first

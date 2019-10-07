@@ -1,5 +1,5 @@
-var player = document.getElementById("player");
-var message = document.getElementById("message");
+let player = document.getElementById("player");
+let message = document.getElementById("message");
 
 player.addEventListener("play", playerStarted);
 player.addEventListener("timeupdate", playerProgressed);
@@ -11,8 +11,8 @@ function playerStarted() {
 }
 
 function playerProgressed(e) {
-  var minutes = Math.floor(player.currentTime / 60);
-  var seconds = Math.floor(player.currentTime) - minutes * 60;
+  let minutes = Math.floor(player.currentTime / 60);
+  let seconds = Math.floor(player.currentTime) - minutes * 60;
   message.innerHTML = "The player is playing at " + minutes + ":" + seconds;
 }
 

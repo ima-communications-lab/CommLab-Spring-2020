@@ -1,5 +1,5 @@
 // declare and initialize our list just like any other variable
-var helloList = [
+let helloList = [
   "Hello",
   "Namaste",
   "Hola",
@@ -13,7 +13,7 @@ var helloList = [
 ];
 
 // declare and initialize our counter
-var counter = 0;
+let counter = 0;
 
 // this is the function that swaps out text
 function rotate() {
@@ -30,7 +30,7 @@ function rotate() {
 
 //function to remove the last element of the list
 function removeFromList() {
-  var removedText = helloList[helloList.length - 1];
+  let removedText = helloList[helloList.length - 1];
   document.getElementById("removed").innerHTML =
     "<em>" + removedText + " was removed.</em>";
   helloList.splice(helloList.length - 1, 1);

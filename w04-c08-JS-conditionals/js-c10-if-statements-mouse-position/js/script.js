@@ -1,7 +1,7 @@
 function showClientMousePosition() {
 
-  var cX = event.clientX;
-  var cY = event.clientY;
+  let cX = event.clientX;
+  let cY = event.clientY;
 
   document.getElementById('client-x').innerHTML = cX;
   document.getElementById('client-y').innerHTML = cY;
@@ -17,13 +17,13 @@ function showClientMousePosition() {
 
 function showOffsetMousePosition() {
 
-  var oX = event.offsetX;
-  var oY = event.offsetY;
+  let oX = event.offsetX;
+  let oY = event.offsetY;
 
   document.getElementById('offset-x').innerHTML = oX;
   document.getElementById('offset-y').innerHTML = oY;
 
-  var box = document.getElementById('color-box');
+  let box = document.getElementById('color-box');
   if (oX < 200) {
     box.style.backgroundColor = "red";
   } else {

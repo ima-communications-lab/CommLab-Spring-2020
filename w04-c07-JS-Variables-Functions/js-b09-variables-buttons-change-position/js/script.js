@@ -1,6 +1,6 @@
-var xPos = 50;
-var yPos = 100;
-var myBox = document.getElementById('box');
+let xPos = 50;
+let yPos = 100;
+let myBox = document.getElementById('box');
 
 function moveUp() {
   yPos = yPos - 10;

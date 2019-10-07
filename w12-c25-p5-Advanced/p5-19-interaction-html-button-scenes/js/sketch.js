@@ -1,4 +1,4 @@
-var scene = 0;
+let scene = 0;
 
 function displayScene1() {
   background(0); // to clear the background
@@ -40,10 +40,10 @@ function draw() {
 
 
 function drawRandomLines() {
-  var x1 = random(width);
-  var y1 = random(height);
-  var x2 = random(width);
-  var y2 = random(height);
+  let x1 = random(width);
+  let y1 = random(height);
+  let x2 = random(width);
+  let y2 = random(height);
 
   noFill();
   stroke(random(255), random(255), random(255), random(255));
@@ -51,9 +51,9 @@ function drawRandomLines() {
 }
 
 function drawRandomCircle() {
-  var x = random(width);
-  var y = random(height);
-  var diameter = random(10, 100);
+  let x = random(width);
+  let y = random(height);
+  let diameter = random(10, 100);
 
   noStroke();
   fill(random(255), random(255), random(255), random(255));
@@ -61,9 +61,9 @@ function drawRandomCircle() {
 }
 
 function drawRandomRect() {
-  var x = random(width);
-  var y = random(height);
-  var diameter = random(10, 100);
+  let x = random(width);
+  let y = random(height);
+  let diameter = random(10, 100);
 
   noFill();
   stroke(random(255), random(255), random(255), random(255));

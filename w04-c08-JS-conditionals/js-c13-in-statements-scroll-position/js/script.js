@@ -1,7 +1,7 @@
 function updateScrollPosition() {
 
-  var x = window.scrollX;
-  var y = window.scrollY;
+  let x = window.scrollX;
+  let y = window.scrollY;
 
   document.getElementById('scroll-x').innerHTML = x;
   document.getElementById('scroll-y').innerHTML = y;
@@ -9,7 +9,7 @@ function updateScrollPosition() {
   console.log( x + ", " + y );
 
 
-  var paragraph = document.getElementById('content-center');
+  let paragraph = document.getElementById('content-center');
   if ( y < 500 ) {
     paragraph.innerHTML = "Content 1";
   } else if ( y >= 500 && y < 1000 ) {

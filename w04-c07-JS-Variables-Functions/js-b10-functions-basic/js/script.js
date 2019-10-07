@@ -7,7 +7,7 @@ function f(x) {
 }
 
 function getResult() {
-  var result = f(4);
+  let result = f(4);
   // call the function 'f(x)'
   // and store the return value in the variable 'result'
   console.log( result );
@@ -55,7 +55,7 @@ function myOwnFunctionName() {
 
 // 2: no parameter, a return value
 function myOwnFunctionName() {
-  var result = 1 + 2; // for example!
+  let result = 1 + 2; // for example!
   // a block of code
   return result;
 }
@@ -67,7 +67,7 @@ function myOwnFunctionName( parameters ) {
 
 // 4: paramters (as many as you want!), a return value!
 function myOwnFunctionName( param1, param2, param3, param4 ) {
-  var result = param1 + param2; // for example!
+  let result = param1 + param2; // for example!
   // a block of code
   return result;
 }

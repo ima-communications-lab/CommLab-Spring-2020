@@ -1,6 +1,6 @@
-var vid = document.getElementById('myVideo');
-var btnReplay = document.getElementById('btnReplay');
-var btnStop = document.getElementById('btnStop');
+let vid = document.getElementById('myVideo');
+let btnReplay = document.getElementById('btnReplay');
+let btnStop = document.getElementById('btnStop');
 
 btnReplay.style.display = "block"; // shown
 btnReplay.style.opacity = "0.3";
@@ -8,13 +8,13 @@ btnStop.style.display = "none"; // hidden
 btnStop.style.opacity = "0.3";
 
 
-var step = 0;
+let step = 0;
 
 function timeUpdated() {
   console.log(vid.currentTime);
 
   // update the "step" variable first
-  var t = vid.currentTime;
+  let t = vid.currentTime;
   if (t >= 0 && t < 2.5) {
     step = 0;
   }

@@ -1,8 +1,8 @@
 //declare and initialize our list just like any other variable
-var catList = ["cat1", "cat2", "cat3", "cat4", "cat5"];
+let catList = ["cat1", "cat2", "cat3", "cat4", "cat5"];
 
 //declare and initialize our counter
-var counter = 0;
+let counter = 0;
 
 //this is the function that swaps out photos
 function rotate() {

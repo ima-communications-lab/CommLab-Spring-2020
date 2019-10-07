@@ -1,10 +1,10 @@
-var currentSrc = 0;
-var sources = ["audio/track1.mp3", "audio/track2.mp3", "audio/track3.mp3"];
+let currentSrc = 0;
+let sources = ["audio/track1.mp3", "audio/track2.mp3", "audio/track3.mp3"];
 
-var player = document.getElementById("player");
+let player = document.getElementById("player");
 player.addEventListener("ended", playerEnded);
 
-var startBtn = document.getElementById("startBtn");
+let startBtn = document.getElementById("startBtn");
 startBtn.addEventListener("click", startPlaying);
 
 function startPlaying() {

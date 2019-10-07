@@ -1,6 +1,6 @@
 // Start a timeout and an interval
 setTimeout(timeoutFunction, 1000);
-var interval = setInterval(intervalFunction, 1000);
+let interval = setInterval(intervalFunction, 1000);
 
 function timeoutFunction() {
   console.log("Timeout called!");
@@ -11,7 +11,7 @@ function intervalFunction() {
 }
 
 // code to stop the interval
-var btn = document.getElementById("btn");
+let btn = document.getElementById("btn");
 btn.addEventListener("click", clicked);
 
 function clicked(e) {

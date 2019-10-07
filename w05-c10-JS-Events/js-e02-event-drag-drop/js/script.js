@@ -1,4 +1,4 @@
-var dragger = document.getElementById("dragger");
+let dragger = document.getElementById("dragger");
 dragger.addEventListener("dragstart", dragstart);
 dragger.addEventListener("dragend", dragend);
 

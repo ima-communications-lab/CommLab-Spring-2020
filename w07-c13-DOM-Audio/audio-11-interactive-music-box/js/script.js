@@ -1,4 +1,4 @@
-var sounds = [
+let sounds = [
   "audio/0.wav",
   "audio/1.wav",
   "audio/2.wav",
@@ -7,7 +7,7 @@ var sounds = [
   "audio/5.wav"
 ];
 
-for (var i = 0; i < sounds.length; i++) {
+for (let i = 0; i < sounds.length; i++) {
   // create an audio player just for this file
   const player = document.createElement("audio");
   player.loop = true;

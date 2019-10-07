@@ -1,11 +1,11 @@
-var player = document.getElementById("player");
-var message = document.getElementById("message");
+let player = document.getElementById("player");
+let message = document.getElementById("message");
 
-var playBtn = document.getElementById("playBtn");
-var pauseBtn = document.getElementById("pauseBtn");
-var stopBtn = document.getElementById("stopBtn");
-var volumeUpBtn = document.getElementById("volumeUpBtn");  // ***
-var volumeDownBtn = document.getElementById("volumeDownBtn");  // ***
+let playBtn = document.getElementById("playBtn");
+let pauseBtn = document.getElementById("pauseBtn");
+let stopBtn = document.getElementById("stopBtn");
+let volumeUpBtn = document.getElementById("volumeUpBtn");  // ***
+let volumeDownBtn = document.getElementById("volumeDownBtn");  // ***
 
 playBtn.addEventListener("click", playVideo);
 pauseBtn.addEventListener("click", pauseVideo);
@@ -14,7 +14,7 @@ volumeUpBtn.addEventListener("click", volumeUp);  // ***
 volumeDownBtn.addEventListener("click", volumeDown);  // ***
 
 
-var volume = 1.0;
+let volume = 1.0;
 
 
 function volumeUp() {

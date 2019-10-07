@@ -13,8 +13,8 @@ function draw() {
 
   // random(30, 80);
   // generate a random float from 30 to 80
-  
-  var diameter = random(5, 50);
+
+  let diameter = random(5, 50);
   fill(random(255), random(255), random(255), random(255));
   ellipse(random(width), random(height), diameter, diameter);
 }

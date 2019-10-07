@@ -12,8 +12,8 @@ console.log( true && false );
 console.log( false && false );
 
 
-var x = 10;
-var y = 20;
+let x = 10;
+let y = 20;
 
 console.log( "a: ");
 console.log( x > 1 || x < 20 );

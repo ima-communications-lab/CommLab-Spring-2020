@@ -44,7 +44,7 @@ console.log( "n: ");
 console.log( 1 <= 1 );
 console.log( 1 <= 3 );
 
-var answer = true;
+let answer = true;
 console.log( "o: ");
 console.log( answer );
 console.log( !answer );

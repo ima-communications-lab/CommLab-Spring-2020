@@ -1,5 +1,5 @@
-var circleColor = "red";
-var circleSize = 150;
+let circleColor = "red";
+let circleSize = 150;
 
 function turnRed() {
   circleColor = "red";

@@ -1,4 +1,4 @@
-var answer = confirm( "Would you like to have a red box?" );
+let answer = confirm( "Would you like to have a red box?" );
 console.log( answer );
 
 

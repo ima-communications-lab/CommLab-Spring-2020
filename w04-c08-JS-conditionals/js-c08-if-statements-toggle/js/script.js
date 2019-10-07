@@ -1,10 +1,10 @@
-var toggle = false;
+let toggle = false;
 
 function toggleBoxColor() {
 
   toggle = !toggle; // flip the boolean value!
 
-  var box = document.getElementById('color-box');
+  let box = document.getElementById('color-box');
   if (toggle == true) {
     box.style.backgroundColor = "blue";
   } else {

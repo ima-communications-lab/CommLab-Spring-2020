@@ -1,4 +1,4 @@
-var vid = document.getElementById('myVideo');
+let vid = document.getElementById('myVideo');
 
 window.onload = function() {
   adjustVideoSize();

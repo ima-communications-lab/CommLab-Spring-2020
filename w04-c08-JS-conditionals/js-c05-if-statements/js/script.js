@@ -1,4 +1,4 @@
-var answer = true;
+let answer = true;
 if ( answer ) {
   console.log( "1: Yes." );
 }
@@ -7,7 +7,7 @@ if ( answer == true ) {
 }
 
 
-var buttonClicked = true;
+let buttonClicked = true;
 if ( buttonClicked == false) {
   console.log( "2: Button is not clicked yet." );
 } else {
@@ -22,7 +22,7 @@ if ( 10 == 3 + 8 ) {
 }
 
 
-var x = 10;
+let x = 10;
 if ( x > 0 && x < 100 ) {
   console.log( "4: x is between 0 and 100!" );
 } else {
@@ -30,14 +30,14 @@ if ( x > 0 && x < 100 ) {
 }
 
 
-var width = 100;
-var height = 200;
+let width = 100;
+let height = 200;
 if ( width >= 200 && height >= 200 ) {
   console.log( "5: Big enough!" );
 }
 
 
-var person = "Nimrah";
+let person = "Nimrah";
 if ( person == "Ann" || person == "Rune" ) {
   console.log( '6: Say "Hi!!"' );
 } else if ( person == "Nimrah" || person == "Moon" ) {
@@ -47,7 +47,7 @@ if ( person == "Ann" || person == "Rune" ) {
 }
 
 
-var currentTime = 10;
+let currentTime = 10;
 if ( currentTime >= 8 && currentTime < 12 ) {
   console.log( "7: Good Morning!" );
 } else if ( currentTime >= 12 && currentTime < 17 ) {

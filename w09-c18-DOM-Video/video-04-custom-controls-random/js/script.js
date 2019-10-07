@@ -1,10 +1,10 @@
-var player = document.getElementById("player");
-var message = document.getElementById("message");
+let player = document.getElementById("player");
+let message = document.getElementById("message");
 
-var playBtn = document.getElementById("playBtn");
-var pauseBtn = document.getElementById("pauseBtn");
-var stopBtn = document.getElementById("stopBtn");
-var randomBtn = document.getElementById("randomBtn");  // ***
+let playBtn = document.getElementById("playBtn");
+let pauseBtn = document.getElementById("pauseBtn");
+let stopBtn = document.getElementById("stopBtn");
+let randomBtn = document.getElementById("randomBtn");  // ***
 
 playBtn.addEventListener("click", playVideo);
 pauseBtn.addEventListener("click", pauseVideo);

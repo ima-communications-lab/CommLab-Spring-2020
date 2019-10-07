@@ -1,9 +1,9 @@
-var player = document.getElementById("player");
+let player = document.getElementById("player");
 
 player.addEventListener("timeupdate", timeUpdated);
 
-var step = 0;
-var link;
+let step = 0;
+let link;
 
 function timeUpdated() {
   if (step === 0 && player.currentTime > 5) {

@@ -1,7 +1,7 @@
-var r = 0;
-var g = 0;
-var b = 0;
-var myBox = document.getElementById('box');
+let r = 0;
+let g = 0;
+let b = 0;
+let myBox = document.getElementById('box');
 
 function addMoreRed() {
   r = r + 10;

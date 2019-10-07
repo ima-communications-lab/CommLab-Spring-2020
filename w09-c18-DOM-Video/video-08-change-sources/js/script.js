@@ -1,10 +1,10 @@
-var currentSrc = 0;
-var sources = ["video/bolt.mp4", "video/robot.mp4"];
+let currentSrc = 0;
+let sources = ["video/bolt.mp4", "video/robot.mp4"];
 
-var player = document.getElementById("player");
+let player = document.getElementById("player");
 player.addEventListener("ended", playerEnded);
 
-var startBtn = document.getElementById("startBtn");
+let startBtn = document.getElementById("startBtn");
 startBtn.addEventListener("click", startPlaying);
 
 function startPlaying() {

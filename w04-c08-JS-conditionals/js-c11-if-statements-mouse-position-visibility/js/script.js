@@ -1,16 +1,16 @@
 function updateMousePosition() {
 
-  var cX = event.clientX;
-  var cY = event.clientY;
+  let cX = event.clientX;
+  let cY = event.clientY;
 
   document.getElementById('client-x').innerHTML = cX;
   document.getElementById('client-y').innerHTML = cY;
 
 
   // show or hide the boxes based on mouse x position!
-  var boxL = document.getElementById('box-left');
-  var boxC = document.getElementById('box-center');
-  var boxR = document.getElementById('box-right');
+  let boxL = document.getElementById('box-left');
+  let boxC = document.getElementById('box-center');
+  let boxR = document.getElementById('box-right');
 
   if (cX < 400) {
 

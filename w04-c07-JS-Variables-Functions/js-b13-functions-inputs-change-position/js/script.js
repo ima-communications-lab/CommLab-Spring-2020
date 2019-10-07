@@ -1,11 +1,11 @@
-var xPos = 50;
-var yPos = 100;
-var myBox = document.getElementById('box');
+let xPos = 50;
+let yPos = 100;
+let myBox = document.getElementById('box');
 
 
 function updatePosition() {
-  var xValue = parseInt( document.getElementById('xInput').value );
-  var yValue = parseInt( document.getElementById('yInput').value );
+  let xValue = parseInt( document.getElementById('xInput').value );
+  let yValue = parseInt( document.getElementById('yInput').value );
 
   // parseInt(), parseFloar() and Number()
   // https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/

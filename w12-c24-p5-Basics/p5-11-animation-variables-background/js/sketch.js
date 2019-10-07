@@ -1,6 +1,6 @@
-var x;
-var y;
-var diameter;
+let x;
+let y;
+let diameter;
 
 function setup() {
   createCanvas(600, 600);

@@ -1,12 +1,12 @@
-var currentImage = 1;
+let currentImage = 1;
 
-var player = document.getElementById("player");
+let player = document.getElementById("player");
 player.addEventListener("timeupdate", playerProgressed);
 
-var startBtn = document.getElementById("startBtn");
+let startBtn = document.getElementById("startBtn");
 startBtn.addEventListener("click", startSlideShow);
 
-var img = document.createElement("img");
+let img = document.createElement("img");
 img.src = "images/cat1.jpg";
 
 function startSlideShow() {

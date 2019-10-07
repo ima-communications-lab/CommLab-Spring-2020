@@ -1,5 +1,5 @@
-var msg = document.getElementById("message");
-var body = document.body;
+let msg = document.getElementById("message");
+let body = document.body;
 
 
 function setup() {

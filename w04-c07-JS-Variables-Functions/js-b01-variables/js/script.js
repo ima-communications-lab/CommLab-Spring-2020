@@ -1,59 +1,59 @@
 // 'int' variables in other languages
-var num = 7;
-var number = 10;
-var number1 = -27;
-var value = -120;
-var count = 1;
-var index = 0;
-var myAge = 19;
-var year = 2018;
-var numberOfBoxes = 12;
-var x = 300; // maybe for x position? (e.g. CSS - left: 300px;)
-var y = 200; // maybe for y position? (e.g. CSS - top: 200px;)
-var w = 100; // maybe for width?
-var h = 200; // maybe for height?
-var r = 255; // maybe for red?
-var g = 120; // maybe for green?
-var b = 200; // maybe for blue?
+let num = 7;
+let number = 10;
+let number1 = -27;
+let value = -120;
+let count = 1;
+let index = 0;
+let myAge = 19;
+let year = 2018;
+let numberOfBoxes = 12;
+let x = 300; // maybe for x position? (e.g. CSS - left: 300px;)
+let y = 200; // maybe for y position? (e.g. CSS - top: 200px;)
+let w = 100; // maybe for width?
+let h = 200; // maybe for height?
+let r = 255; // maybe for red?
+let g = 120; // maybe for green?
+let b = 200; // maybe for blue?
 
 
 // 'float' variables in other languages
-var a = 0.5; // maybe for alpha? 50% Opacity.
-var pi = 3.14159265;
-var opacity = 1.0;
-var alphaValue = 0.72;
-var speedX = 0.975;
-var speedY = -3.724;
-var scaling = 2.0;
+let a = 0.5; // maybe for alpha? 50% Opacity.
+let pi = 3.14159265;
+let opacity = 1.0;
+let alphaValue = 0.72;
+let speedX = 0.975;
+let speedY = -3.724;
+let scaling = 2.0;
 
 
 // 'string' variables in other languages
-var greeting = "Hello!";
-var greetingEn = 'Hello!'; // Both ways are the same!
-var greetingCn = 'Ni hao!';
-var name = "Matt";
-var nickname = "fatbits";
-var myNetId = "abc123";
-var myClassName = "Communications Lab";
-var text = "Introduction to Javascript!";
-var textInput = ""; // ready for the input!
-var myFontSize = "16px";
-var boxWidth = "100px";
-var color = "red";
-var colorValue = "rgb(255, 0, 0)";
-var colorHex = "#FF0000";
-var unit = "px";
-var extension = ".jpg";
-var filePath = "img/my-selfie.png";
-var emailAddress = "abc123@nyu.edu"
-var imaWebsite = "http://ima.nyu.sh";
+let greeting = "Hello!";
+let greetingEn = 'Hello!'; // Both ways are the same!
+let greetingCn = 'Ni hao!';
+let name = "Matt";
+let nickname = "fatbits";
+let myNetId = "abc123";
+let myClassName = "Communications Lab";
+let text = "Introduction to Javascript!";
+let textInput = ""; // ready for the input!
+let myFontSize = "16px";
+let boxWidth = "100px";
+let color = "red";
+let colorValue = "rgb(255, 0, 0)";
+let colorHex = "#FF0000";
+let unit = "px";
+let extension = ".jpg";
+let filePath = "img/my-selfie.png";
+let emailAddress = "abc123@nyu.edu"
+let imaWebsite = "http://ima.nyu.sh";
 
 
 // 'boolean' vaiables in other languages
-var state = false;
-var buttonState = true;
-var toggle = true;
-var isClicked = false;
-var isReady = true;
-var newWindowOpened = true;
-var colorChanged = false;
+let state = false;
+let buttonState = true;
+let toggle = true;
+let isClicked = false;
+let isReady = true;
+let newWindowOpened = true;
+let colorChanged = false;

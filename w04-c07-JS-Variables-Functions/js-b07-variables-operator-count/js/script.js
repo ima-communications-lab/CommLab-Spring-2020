@@ -1,5 +1,5 @@
-var count = 0;
-var pResult = document.getElementById('result');
+let count = 0;
+let pResult = document.getElementById('result');
 
 
 function addOne() {

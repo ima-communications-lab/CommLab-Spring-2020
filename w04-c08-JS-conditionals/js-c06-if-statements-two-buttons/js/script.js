@@ -1,5 +1,5 @@
-var button1 = false;
-var button2 = false;
+let button1 = false;
+let button2 = false;
 
 
 function button1Clicked() {
@@ -19,7 +19,7 @@ function button2Clicked() {
 
 
 function changeBoxColor() {
-  var box = document.getElementById('color-box');
+  let box = document.getElementById('color-box');
 
   // 'and' logical operator
   if (button1 == true && button2 == true) {

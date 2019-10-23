@@ -1,0 +1,47 @@
+body, p{
+	margin:0px;
+}
+
+html, body, .sections{
+	height:100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+.info {
+	position: fixed;
+	left: 50px;
+	top: 50px;
+	color: white;
+	font-family: Arial;
+	font-size: 18px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+}
+
+.sections{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-size: cover;
+	top: 5%;
+}
+
+#section-0 {
+	background-color: #d991c0;
+}
+
+#section-1 {
+	background-color: #033e8c;
+}
+
+#section-2 {
+	background-color: #f2cb05;
+}
+
+#section-3 {
+	background-color: #04bfbf;
+}

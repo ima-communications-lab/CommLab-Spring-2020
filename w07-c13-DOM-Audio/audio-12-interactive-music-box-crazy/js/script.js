@@ -12,7 +12,6 @@ let sounds = [
 
 // let's create 300 buttons to trigger random sounds!
 for (let i = 0; i < 300; i++) {
-
   // create an audio player just for this file
   const player = document.createElement("audio");
   // now the index of the sounds array is random!

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>IMA CommLab</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Have a look at 'script.js' file in 'js' folder -->
+  <script src="js/script.js" type="text/javascript"></script>
+</head>
+
+<body onscroll=" updateScrollPosition() ">
+
+  <audio autoplay loop id="player1">
+    <source src="audio/puxi.wav" type="audio/wav">
+      This browser does not support audio.
+	</audio>
+
+  <audio autoplay loop id="player2">
+    <source src="audio/Synth.wav" type="audio/wav">
+    This browser does not support audio.
+  </audio>
+
+  <audio autoplay loop id="player3">
+    <source src="audio/Crowd_CairoMarket.wav" type="audio/wav">
+      This browser does not support audio.
+	</audio>
+
+  <audio autoplay loop id="player4">
+    <source src="audio/Crowd_Whispering.wav" type="audio/wav">
+      This browser does not support audio.
+  </audio>
+
+  <div class="infoV" id="titleInfoV">Scroll percentage V: 0.00%</div>
+  <div class="infoH" id="titleInfoH">Scroll percentage H: 0.00%</div>
+
+  <div id="circleTopLeft"></div>
+  <div id="circleBottomLeft"></div>
+  <div id="circleTopRight"></div>
+  <div id="circleBottomRight"></div>
+
+  <div id="really-large-div">
+    <!-- empty -->
+  </div>
+
+  <!-- empty -->
+  <div id="box-scroll-values" class="fixed-box">
+    <p><span id="scroll-x"></span> </p>
+    <p><span id="scroll-y"></span> </p>
+  </div>
+
+</body>
+
+</html>

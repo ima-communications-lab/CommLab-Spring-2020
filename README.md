@@ -1,4 +1,4 @@
-# Communications Lab | IMA NYU Shanghai | Spring 2020
+# Communications Lab | IMA, NYU Shanghai | Spring 2020
 
 ## Course Description
 In this foundation course, designed to provide students with a framework to effectively communicate through digital means, students will explore the possibilities of digital media by successively producing projects that make use of digital images, audio, video, and the Web. Students learn in a laboratory context of hands-on experimentation, and principles of interpersonal communications, media theory, and human factors will be introduced in readings and investigated through discussion. Students will learn the principles of digital imaging, recording and editing video and audio, and the basics of fundamental web languages HTML, CSS and JavaScript, in order to establish a diverse digital toolkit. Both traditional and experimental outputs, including online and interactive media platforms, will be explored. Weekly assignments, group, and independent projects, as well as project reports will be assigned in each of the core areas of study.
